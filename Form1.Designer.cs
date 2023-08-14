@@ -84,11 +84,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(179, 355);
+            this.label2.Location = new System.Drawing.Point(146, 355);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
+            this.label2.Size = new System.Drawing.Size(105, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Path to Game";
+            this.label2.Text = "Path to Pastel Chime";
             // 
             // label3
             // 
@@ -125,6 +125,7 @@
             this.MinimumSize = new System.Drawing.Size(631, 440);
             this.Name = "Form1";
             this.Text = "t";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
